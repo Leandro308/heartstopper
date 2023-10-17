@@ -1,0 +1,88 @@
+:root{  
+    --aquamarine:rgb(89, 208, 182);
+    --withe:#f4faff;
+    --aqua:rgb(89, 208, 182);
+    --green: #008000;
+}
+
+
+.container{
+    margin: 0 auto;
+    border: 2px solid rgb(0, 55, 255);
+    width: 900px;
+    background-color: var(--aquamarine);
+}
+
+
+nav{
+    padding: 1rem;
+    background-color:var(--withe);
+}
+
+
+.nav-link{
+    text-align: center;
+    text-decoration: none;
+    color: var(--aqua);
+    font-weight: bold;
+    padding: 5%;
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    background-color: var(--purple);
+    color: pink;
+    font-size: 30px;
+}
+
+article{
+    padding: 0.8rem;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+
+footer{
+    text-align: center;
+    color: var(--white);
+}
+
+.titulo1{
+    text-align: center;
+    color:#f4faff
+}
+
+.titulo2{
+    color:#f4faff
+}
+
+.paragrafo{
+    font-size:larger;
+    color:#f4faff
+}
+
+.paragrafo2{
+    font-size: larger ;
+    color:#f4faff;
+}
+
+.paragrafo3{
+    font-size: medium;
+    color:#f4faff;
+}
+
+.imagem{
+    display: block ;
+    margin: 0px auto;
+}
+
+a{
+    text-decoration: black;
+    
+}
+
+a:hover{
+    background-color: blue;
+    color:brown;
+    font-size: 30px;
+}
